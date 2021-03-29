@@ -17,6 +17,16 @@ export const ErrorMessage = styled(Description)`
   color: #d31e25;
 `
 
+export const SearchWrapper = styled.div`
+  align-items: flex-end;
+  display: flex;
+  justify-content: space-between;
+
+  ${media.greaterThan('small')`
+    max-width: 32.5em;
+  `}
+`
+
 export const ResultsWrapper = styled.div`
   display: grid;
   grid-gap: 5em;
