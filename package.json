@@ -2,6 +2,8 @@
   "name": "pokesearch",
   "version": "1.0.0",
   "private": true,
+  "license": "MIT",
+  "author": "Gabriel Santos",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
