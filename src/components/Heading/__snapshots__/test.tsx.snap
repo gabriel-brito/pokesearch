@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Heading /> should render a black heading by default 1`] = `
+.c0 {
+  color: black;
+  font-size: 3.5em;
+  margin-bottom: 1em;
+  position: relative;
+}
+
+.c0::after {
+  border-bottom: 0.5rem solid #d31e25;
+  bottom: -1rem;
+  content: '';
+  left: 0;
+  position: absolute;
+  width: 3rem;
+}
+
+<h1
+  class="c0"
+>
+  Lorem Ipsum
+</h1>
+`;
